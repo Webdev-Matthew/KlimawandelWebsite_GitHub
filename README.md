@@ -1,2 +1,3 @@
 # KlimawandelWebsite_GitHub
-Neue Website
+
+# Design Ideas
