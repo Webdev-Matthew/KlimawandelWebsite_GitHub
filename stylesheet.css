@@ -1,0 +1,75 @@
+/*
+General Settings
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+/*
+Header/Navigation
+*/
+
+header {
+  min-height: 8vh;
+  width: 100%;
+  display: flex;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 6px gray;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+}
+
+header .logo {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+header nav {
+  width: 50%;
+}
+
+header nav ul {
+  display: flex;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  list-style: none;
+  width: 30%;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*
+Landing Page
+*/
+
+#landing {
+  background-image: url(/Images/landing-placeholder.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 92vh;
+}
+
+#landing h1 {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 200px;
+}
