@@ -88,6 +88,7 @@ Landing Page
   opacity: 1;
 }
 
+/*Facts Bar
 #landing .container-facts {
   height: 100px;
   width: 75%;
@@ -103,7 +104,6 @@ Landing Page
 
 .container-facts .fact1 {
   grid-area: fact1;
-  padding-left: 10px;
 }
 
 .container-facts .fact2 {
@@ -118,6 +118,10 @@ Landing Page
   grid-area: fact4;
 }
 
+.container-facts p {
+  text-align: center;
+}
+
 .fact1,
 .fact2,
 .fact3,
@@ -129,7 +133,7 @@ Landing Page
 
 .number {
   font-weight: bold;
-}
+}*/
 
 /*
 Causes Page
