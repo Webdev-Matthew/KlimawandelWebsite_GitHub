@@ -17,12 +17,12 @@ section {
 Header/Navigation
 */
 
-/*header {
+header {
   min-height: 8vh;
   width: 100%;
   display: flex;
   /*background-color: whitesmoke;
-  box-shadow: 1px 1px 6px gray;
+  box-shadow: 1px 1px 6px gray;*/
   justify-content: space-around;
   font-family: "Poppins", sans-serif;
 }
@@ -56,13 +56,13 @@ header nav ul li a {
   letter-spacing: 1px;
   font-size: 14px;
   font-weight: bold;
-}*/
+}
 
 /*
 Landing Page
 */
 
-/*#landing {
+#landing {
   background-image: url(/Images/landing-placeholder.jpg);
   background-position: center center;
   background-size: cover;
@@ -86,9 +86,9 @@ Landing Page
 
 #landing img:hover {
   opacity: 1;
-}*/
+}
 
-/*Facts Bar*//*
+/*Facts Bar*/
 #landing .container-facts {
   height: 100px;
   width: 75%;
@@ -133,7 +133,7 @@ Landing Page
 
 .number {
   font-weight: bold;
-}*/
+}
 
 /*
 Causes Page
@@ -158,24 +158,24 @@ Causes Page
   font-family: "Poppins", sans-serif;
 }
 .causes-headline:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 190px;
   height: 2px;
   margin-left: -95px;
   left: 50%;
   background-color: #25b85b;
-  margin-top: 3.5%;;
+  margin-top: 3.5%;
 }
 #causes-order {
-    background-color: whitesmoke;
-    border: none;
-    margin: 2% 1% 1% 1%;
-    box-shadow: 1px 1px 10px rgb(94, 94, 94);
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "fact1 fact2 fact3 fact4";
-} 
+  background-color: whitesmoke;
+  border: none;
+  margin: 2% 1% 1% 1%;
+  box-shadow: 1px 1px 10px rgb(94, 94, 94);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fact1 fact2 fact3 fact4";
+}
 #causes-order > img {
   margin-top: 2%;
   float: left;
@@ -190,11 +190,13 @@ Causes Page
   text-align: center;
   font-family: "Poppins", sans-serif;
   padding-top: 6%;
-
 }
 #causes-order > p {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   padding-top: 7%;
   padding-bottom: 1%;
+}
+
+@media screen and (min-width: 1260px) {
 }
