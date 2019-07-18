@@ -17,15 +17,29 @@
 
 ### Causes
 
-1.
+1.greenhouse gas from combustor engines (greenhouse gas: carbon dioxide
+, methane and Nitrogen oxides)
+
+2.greenhouse effect: Sunbeams can not be reflected back into space 
 
 ### Consequences
 
-1.
+1. greenhouse effect (causes higher temperatures on the planet surface == global warming)
+2. permafrost melts
+3. there are more frequent heat waves, arid and forest fires
+4. floods
+5. sea level rises
 
 ### Solutions
 
-1.
+1. In the past years, the electric cars got more and more interesting for the humanity. The idea, to only use electric cars gets more popular because they are probably more environmentally friendly. Thats not completely true. Yes, electric cars dont burn petrol and dont expel exhaust. But on the other hand, the energy that the battery consumes is often energy from charcoal power plants. This is not indispensable a climate protection contribution. Because of this fact, most of the electric vehicles aren't better for the environment than combustor engines. Another problem is, that the batterys, which powers the electric car are not often recyclable and thus represent a large environmental impact. Many automarkers are searching for a solution for these problems, for example the American company <a href="https://www.tesla.com">Tesla</a>.
+
+Tesla: 
+Tesla ist one of the biggest electric cars manufacturer, which produced 245.000 electric cars on the end of the year 2018.
+
+
+
+
 
 ### Navigation
 
