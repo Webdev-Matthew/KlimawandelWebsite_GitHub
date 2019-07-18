@@ -63,7 +63,7 @@ Landing Page
 */
 
 #landing {
-  background-image: url(/Images/landing-placeholder.jpg);
+  background-image: url(/Website/root/images/landing-placeholder.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
