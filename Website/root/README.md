@@ -5,6 +5,7 @@
 1. Bilder machen
 2. Design erstellen (Wireframes)
 3. Textfarben an Bilder anpassen
+4. Clip it i hinzufügen
 
 # Design Ideas
 
