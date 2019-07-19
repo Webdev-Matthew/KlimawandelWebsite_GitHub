@@ -194,4 +194,9 @@ Causes Page
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   padding-top: 10px;
+  font-family: "lato", sans-serif;
+}
+#causes-order > h2 {
+  font-family: "lato", sans-serif;
+  padding-top: 1%;
 }
