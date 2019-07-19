@@ -1,0 +1,220 @@
+/*
+General Settings
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+/*
+Header/Navigation
+*/
+
+header {
+  min-height: 8vh;
+  width: 100%;
+  display: flex;
+  /*background-color: whitesmoke;
+  box-shadow: 1px 1px 6px gray;*/
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+}
+
+header .logo {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+header nav {
+  width: 50%;
+}
+
+header nav ul {
+  display: flex;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  list-style: none;
+  width: 30%;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*
+Landing Page
+*/
+
+#landing {
+  background-image: url(/Website/root/images/landing-placeholder.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#landing h1 {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 200px;
+  text-shadow: 1px 1px 3px rgba(196, 194, 194, 0.4);
+}
+
+#landing img {
+  height: 37px;
+  opacity: 0.7;
+  margin-top: 40px;
+  margin-left: 620px;
+}
+
+#landing img:hover {
+  opacity: 1;
+}
+
+/*Facts Bar*/
+#landing .container-facts {
+  height: 100px;
+  width: 75%;
+  background-color: whitesmoke;
+  border: none;
+  margin: 215px 0 0 162px;
+  box-shadow: 1px 1px 10px rgb(94, 94, 94);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fact1 fact2 fact3 fact4";
+}
+
+.container-facts .fact1 {
+  grid-area: fact1;
+}
+
+.container-facts .fact2 {
+  grid-area: fact2;
+}
+
+.container-facts .fact3 {
+  grid-area: fact3;
+}
+
+.container-facts .fact4 {
+  grid-area: fact4;
+}
+
+.container-facts p {
+  text-align: center;
+}
+
+.fact1,
+.fact2,
+.fact3,
+.fact4 {
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(209, 209, 209);
+}
+
+.number {
+  font-weight: bold;
+}
+
+/*
+Causes Page
+*/
+
+#causes {
+  margin-top: 5%;
+}
+
+.line-causes {
+  width: 100%;
+  height: 100px;
+  border: solid 12px #25b85b;
+  border-color: #25b85b transparent transparent transparent;
+  border-radius: 50%/100px 100px 0px 0px;
+}
+.causes-headline {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 1%;
+  margin-top: -3%;
+  font-family: "Poppins", sans-serif;
+}
+<<<<<<< HEAD:stylesheet.css
+/*.causes-headline:after {
+  content: '';
+=======
+.causes-headline:after {
+  content: "";
+>>>>>>> afcf2303d8ad9cc90b8d7d794c38e3f962df1674:Website/root/css/stylesheet.css
+  position: absolute;
+  width: 190px;
+  height: 2px;
+  margin-left: -95px;
+  left: 50%;
+  background-color: #25b85b;
+<<<<<<< HEAD:stylesheet.css
+}*/
+=======
+  margin-top: 3.5%;
+}
+>>>>>>> afcf2303d8ad9cc90b8d7d794c38e3f962df1674:Website/root/css/stylesheet.css
+#causes-order {
+  background-color: whitesmoke;
+  border: none;
+  margin: 2% 1% 1% 1%;
+  box-shadow: 1px 1px 10px rgb(94, 94, 94);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fact1 fact2 fact3 fact4";
+}
+#causes-order > img {
+  float: left;
+  width: 400px;
+  height: 225px;
+}
+#causes-order > h1 {
+  font-size: 40px;
+  width: 100%;
+  height: 225px;
+  font-family: "Poppins", sans-serif;
+<<<<<<< HEAD:stylesheet.css
+  padding-top: 100px;
+  background-color: whitesmoke;
+  text-align: center;
+
+=======
+  padding-top: 6%;
+>>>>>>> afcf2303d8ad9cc90b8d7d794c38e3f962df1674:Website/root/css/stylesheet.css
+}
+#causes-order > p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+<<<<<<< HEAD:stylesheet.css
+  padding-top: 10px;
+}
+=======
+  padding-top: 7%;
+  padding-bottom: 1%;
+}
+
+@media screen and (min-width: 1260px) {
+}
+>>>>>>> afcf2303d8ad9cc90b8d7d794c38e3f962df1674:Website/root/css/stylesheet.css
