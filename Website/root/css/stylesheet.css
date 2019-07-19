@@ -17,12 +17,12 @@ section {
 Header/Navigation
 */
 
-header {
+/*header {
   min-height: 8vh;
   width: 100%;
   display: flex;
   /*background-color: whitesmoke;
-  box-shadow: 1px 1px 6px gray;*/
+  box-shadow: 1px 1px 6px gray;
   justify-content: space-around;
   font-family: "Poppins", sans-serif;
 }
@@ -56,14 +56,14 @@ header nav ul li a {
   letter-spacing: 1px;
   font-size: 14px;
   font-weight: bold;
-}
+}*/
 
 /*
 Landing Page
 */
 
-#landing {
-  background-image: url(/Website/root/images/landing-placeholder.jpg);
+/*#landing {
+  background-image: url(/Images/landing-placeholder.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -86,9 +86,9 @@ Landing Page
 
 #landing img:hover {
   opacity: 1;
-}
+}*/
 
-/*Facts Bar*/
+/*Facts Bar*//*
 #landing .container-facts {
   height: 100px;
   width: 75%;
@@ -133,7 +133,7 @@ Landing Page
 
 .number {
   font-weight: bold;
-}
+}*/
 
 /*
 Causes Page
@@ -157,34 +157,24 @@ Causes Page
   margin-top: -3%;
   font-family: "Poppins", sans-serif;
 }
-<<<<<<< HEAD:stylesheet.css
 /*.causes-headline:after {
   content: '';
-=======
-.causes-headline:after {
-  content: "";
->>>>>>> afcf2303d8ad9cc90b8d7d794c38e3f962df1674:Website/root/css/stylesheet.css
   position: absolute;
   width: 190px;
   height: 2px;
   margin-left: -95px;
   left: 50%;
   background-color: #25b85b;
-<<<<<<< HEAD:stylesheet.css
 }*/
-=======
-  margin-top: 3.5%;
-}
->>>>>>> afcf2303d8ad9cc90b8d7d794c38e3f962df1674:Website/root/css/stylesheet.css
 #causes-order {
-  background-color: whitesmoke;
-  border: none;
-  margin: 2% 1% 1% 1%;
-  box-shadow: 1px 1px 10px rgb(94, 94, 94);
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "fact1 fact2 fact3 fact4";
-}
+    background-color: whitesmoke;
+    border: none;
+    margin: 2% 1% 1% 1%;
+    box-shadow: 1px 1px 10px rgb(94, 94, 94);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "fact1 fact2 fact3 fact4";
+} 
 #causes-order > img {
   float: left;
   width: 400px;
@@ -195,26 +185,18 @@ Causes Page
   width: 100%;
   height: 225px;
   font-family: "Poppins", sans-serif;
-<<<<<<< HEAD:stylesheet.css
   padding-top: 100px;
   background-color: whitesmoke;
   text-align: center;
 
-=======
-  padding-top: 6%;
->>>>>>> afcf2303d8ad9cc90b8d7d794c38e3f962df1674:Website/root/css/stylesheet.css
 }
 #causes-order > p {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
-<<<<<<< HEAD:stylesheet.css
   padding-top: 10px;
+  font-family: "lato", sans-serif;
 }
-=======
-  padding-top: 7%;
-  padding-bottom: 1%;
+#causes-order > h2 {
+  font-family: "lato", sans-serif;
+  padding-top: 1%;
 }
-
-@media screen and (min-width: 1260px) {
-}
->>>>>>> afcf2303d8ad9cc90b8d7d794c38e3f962df1674:Website/root/css/stylesheet.css
