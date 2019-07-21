@@ -8,11 +8,6 @@ General Settings
   scroll-behavior: smooth;
 }
 
-section {
-  height: 100vh;
-  width: 100%;
-}
-
 /*
 Header/Navigation
 */
@@ -67,6 +62,8 @@ Landing Page
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
 }
 
 #landing h1 {
@@ -87,46 +84,45 @@ Landing Page
 #landing img:hover {
   opacity: 1;
 }
-*/
 
 /*Facts Bar*/
-.container-facts {
+#landing .facts-bar {
   height: 100px;
-  width: 75%;
-  background-color: whitesmoke;
+  width: 70%;
   border: none;
-  margin: 215px 0 0 162px;
-  box-shadow: 1px 1px 10px rgb(94, 94, 94);
+  margin: 17% 0 0 15%;
+  background-color: whitesmoke;
   display: grid;
+  box-shadow: 1px 1px 10px rgb(94, 94, 94);
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "fact1 fact2 fact3 fact4";
+  grid-template-areas: "p1 p2 p3 p4";
 }
 
-.container-facts .fact1 {
-  grid-area: fact1;
+.facts-bar .point1 {
+  grid-area: p1;
 }
 
-.container-facts .fact2 {
-  grid-area: fact2;
+.facts-bar .point2 {
+  grid-area: p2;
 }
 
-.container-facts .fact3 {
-  grid-area: fact3;
+.facts-bar .point3 {
+  grid-area: p3;
 }
 
-.container-facts .fact4 {
-  grid-area: fact4;
+.facts-bar .point4 {
+  grid-area: p4;
 }
 
-.container-facts p {
+.facts-bar p {
   text-align: center;
 }
 
-.fact1,
-.fact2,
-.fact3,
-.fact4 {
+.point1,
+.point2,
+.point3,
+.point4 {
   padding-top: 30px;
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid rgb(209, 209, 209);
@@ -142,6 +138,8 @@ Causes Page
 
 #causes {
   margin-top: 10%;
+  height: 100vh;
+  width: 100%;
 }
 
 .line-causes {
