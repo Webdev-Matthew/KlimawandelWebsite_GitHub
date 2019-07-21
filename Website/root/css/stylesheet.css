@@ -17,12 +17,12 @@ section {
 Header/Navigation
 */
 
-/*header {
+header {
   min-height: 8vh;
   width: 100%;
   display: flex;
   /*background-color: whitesmoke;
-  box-shadow: 1px 1px 6px gray;
+  box-shadow: 1px 1px 6px gray;*/
   justify-content: space-around;
   font-family: "Poppins", sans-serif;
 }
@@ -56,14 +56,14 @@ header nav ul li a {
   letter-spacing: 1px;
   font-size: 14px;
   font-weight: bold;
-}*/
+}
 
 /*
 Landing Page
 */
 
-/*#landing {
-  background-image: url(/Images/landing-placeholder.jpg);
+#landing {
+  background-image: url(/Website/root/images/landing-placeholder.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -86,10 +86,11 @@ Landing Page
 
 #landing img:hover {
   opacity: 1;
-}*/
+}
+*/
 
-/*Facts Bar*//*
-#landing .container-facts {
+/*Facts Bar*/
+.container-facts {
   height: 100px;
   width: 75%;
   background-color: whitesmoke;
@@ -133,14 +134,14 @@ Landing Page
 
 .number {
   font-weight: bold;
-}*/
+}
 
 /*
 Causes Page
 */
 
 #causes {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .line-causes {
@@ -167,14 +168,14 @@ Causes Page
   background-color: #25b85b;
 }*/
 #causes-order {
-    background-color: whitesmoke;
-    border: none;
-    margin: 2% 1% 1% 1%;
-    box-shadow: 1px 1px 10px rgb(94, 94, 94);
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "fact1 fact2 fact3 fact4";
-} 
+  background-color: whitesmoke;
+  border: none;
+  margin: 2% 1% 1% 1%;
+  box-shadow: 1px 1px 10px rgb(94, 94, 94);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "fact1 fact2 fact3 fact4";
+}
 #causes-order > img {
   float: left;
   width: 400px;
@@ -188,7 +189,6 @@ Causes Page
   padding-top: 100px;
   background-color: whitesmoke;
   text-align: center;
-
 }
 #causes-order > p {
   font-size: 20px;
