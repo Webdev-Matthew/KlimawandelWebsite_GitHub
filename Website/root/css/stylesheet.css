@@ -51,7 +51,7 @@ header nav ul li a {
   letter-spacing: 1px;
   font-size: 15px;
   font-weight: bold;
-  text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.45s ease;
   -moz-transition: all 0.45s ease;
   -o-transition: all 0.45s ease;
@@ -256,6 +256,49 @@ Consequences Page
   overflow: hidden;
   border: 1px solid #ffffff;
   box-shadow: 1px 1px 10px gainsboro;
+  background-image: url(/Website/root/images/feld_bearbeitet.jpeg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.info {
+  margin-left: 26%;
+}
+
+.inner {
+  background: rgb(9, 201, 153);
+  padding: 2%;
+  border-radius: 10px;
+  width: 250px;
+  clip-path: circle(10% at 90% 20%);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  margin: 0 3% 0 4%;
+}
+
+.inner:hover {
+  clip-path: circle(75%);
+  background: #00b6ff;
+}
+
+.inner span {
+  float: right;
+  color: white;
+  font-weight: bold;
+  transition: color 0.5s;
+  position: relative;
+  margin-right: 7.5%;
+  margin-top: 5.5%;
+}
+
+span :hover span {
+  color: rgba(255, 255, 255, 0);
+}
+
+.card1 h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10%;
 }
 
 .card1:hover {
