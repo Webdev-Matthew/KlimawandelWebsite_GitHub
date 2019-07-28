@@ -381,7 +381,6 @@ Test
 #test {
   height: 100vh;
 }
-<<<<<<< HEAD
 .kulturbanause-logo {
   height: 500px;
   width: 500px;
@@ -421,9 +420,4 @@ Test
 #testen {
   margin-top: 10%;
 }
-=======
-a {
-  text-decoration: none;
-  color: blue;
->>>>>>> 4e948b1503f9a6bc15f43ec51d43534eb0d53984
-}
+
