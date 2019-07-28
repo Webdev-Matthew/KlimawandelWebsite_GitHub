@@ -338,3 +338,42 @@ Test
 #test {
   height: 100vh;
 }
+.kulturbanause-logo {
+  height: 500px;
+  width: 500px;
+  perspective: 1500;
+  float: left;
+  margin: 0 1em;
+}
+.kulturbanause-logo:hover .turnaround {
+  transform: rotateY(180deg);
+}
+.kulturbanause-logo .front {
+  background: url(../images/flip-front.jpg) 0 0 no-repeat;
+}
+.kulturbanause-logo .back {
+  background: url(../images/flip-back.jpg) 0 0 no-repeat;
+}
+.turnaround {
+  transition: 2s;
+  transform-style: preserve-3d;
+  position: relative;
+  height: 100%;
+}
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.front {
+  z-index: 2;
+}
+.back {
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+#testen {
+  margin-top: 10%;
+}
