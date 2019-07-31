@@ -44,7 +44,6 @@ header nav ul li {
   list-style: none;
   width: 30%;
 }
-
 header nav ul li a {
   text-decoration: none;
   color: #fff;
@@ -274,12 +273,18 @@ Consequences Page
 }
 
 .card1 .back > p {
-  font-size: 30px;
+  font-size: 20px;
   font-family: "lato", sans-serif;
+  padding-left: 2%;
 }
 
 .card1 .back {
   padding-top: 3%;
+  border-color: #f7ec0c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-style: solid;
+  padding: 12px 10px;
 }
 
 .card1:hover::before {
