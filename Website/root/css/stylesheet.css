@@ -351,6 +351,9 @@ Consequences Page
 .card3:hover::before {
   transform: scale(2.15);
 }
+a {
+  text-decoration: none;
+}
 
 /*
 Test
