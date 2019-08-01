@@ -44,7 +44,6 @@ header nav ul li {
   list-style: none;
   width: 30%;
 }
-
 header nav ul li a {
   text-decoration: none;
   color: #fff;
@@ -249,7 +248,6 @@ Consequences Page
   position: relative;
   background-color: #ffffff;
   border-radius: 4px;
-  padding: 32px 24px;
   margin: 12px;
   text-decoration: none;
   z-index: 0;
@@ -257,10 +255,18 @@ Consequences Page
   border: 1px solid #ffffff;
   box-shadow: 1px 1px 10px gainsboro;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-position: center center;
   background-size: cover;
 =======
 >>>>>>> b21c6f45a18398bfa2d8e8cbca3270a047e08e72
+=======
+  perspective: 1500;
+}
+
+.card1:hover .turnaround {
+  transform: rotateY(180deg);
+>>>>>>> 6395bee284e5a9a95d667c197d6f63c1b060af07
 }
 
 .card1:hover {
@@ -268,6 +274,25 @@ Consequences Page
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
   top: -10px;
   background-color: white;
+}
+
+.card1 .back > h1 {
+  font-family: "lato", sans-serif;
+}
+
+.card1 .back > p {
+  font-size: 20px;
+  font-family: "lato", sans-serif;
+  padding-left: 2%;
+}
+
+.card1 .back {
+  padding-top: 3%;
+  border-color: #f7ec0c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-style: solid;
+  padding: 12px 10px;
 }
 
 .card1:hover::before {
