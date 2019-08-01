@@ -254,19 +254,13 @@ Consequences Page
   overflow: hidden;
   border: 1px solid #ffffff;
   box-shadow: 1px 1px 10px gainsboro;
-<<<<<<< HEAD
-<<<<<<< HEAD
   background-position: center center;
   background-size: cover;
-=======
->>>>>>> b21c6f45a18398bfa2d8e8cbca3270a047e08e72
-=======
   perspective: 1500;
 }
 
 .card1:hover .turnaround {
   transform: rotateY(180deg);
->>>>>>> 6395bee284e5a9a95d667c197d6f63c1b060af07
 }
 
 .card1:hover {
