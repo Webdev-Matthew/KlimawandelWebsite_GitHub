@@ -242,55 +242,10 @@ Consequences Page
 
 .container-cards .card1 {
   grid-area: card1;
-  margin-left: 5%;
-  display: block;
-  top: 0px;
-  position: relative;
-  background-color: #ffffff;
   border-radius: 4px;
   margin: 12px;
   text-decoration: none;
-  z-index: 0;
-  overflow: hidden;
-  border: 1px solid #ffffff;
-  box-shadow: 1px 1px 10px gainsboro;
-  background-position: center center;
-  background-size: cover;
-  perspective: 1500;
-}
-
-.card1:hover .turnaround {
-  transform: rotateY(180deg);
-}
-
-.card1:hover {
-  transition: all 0.2s ease-in-out;
-  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-  top: -10px;
-  background-color: white;
-}
-
-.card1 .back > h1 {
-  font-family: "lato", sans-serif;
-}
-
-.card1 .back > p {
-  font-size: 20px;
-  font-family: "lato", sans-serif;
-  padding-left: 2%;
-}
-
-.card1 .back {
-  padding-top: 3%;
-  border-color: #f7ec0c;
-  border-radius: 4px;
-  box-sizing: border-box;
-  border-style: solid;
-  padding: 12px 10px;
-}
-
-.card1:hover::before {
-  transform: scale(2.15);
+  background-color: transparent;
 }
 
 .container-cards .card2 {
@@ -298,10 +253,14 @@ Consequences Page
   border-radius: 4px;
   margin: 12px;
   text-decoration: none;
+  background-color: transparent;
 }
 
-/*zweiter Hover effect*/
-.card2 {
+.container-cards .card3 {
+  grid-area: card3;
+  border-radius: 4px;
+  margin: 12px;
+  text-decoration: none;
   background-color: transparent;
 }
 
@@ -314,73 +273,37 @@ Consequences Page
   transform-style: preserve-3d;
 }
 
-.card2:hover .inner {
-  transform: rotateY(180deg);
-}
-
-.front2,
-.back2 {
+.front,
+.back {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
 
-.front2 {
+.front {
   background-image: url(/Website/root/images/feld_bearbeitet.jpeg);
   background-position: center center;
   background-size: cover;
   color: black;
 }
 
-.back2 {
+.back {
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
 }
 
-/*.card2:hover {
-  transition: all 0.2s ease-out;
-  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-  top: -10px;
-  background-color: white;
+.card1:hover .inner {
+  transform: rotateY(180deg);
 }
 
-.card2:hover::before {
-  transform: scale(2.15);
-}*/
-
-.container-cards .card3 {
-  grid-area: card3;
-  background: whitesmoke;
-  margin-right: 5%;
-  margin-top: 20%;
-  display: block;
-  top: 0px;
-  position: relative;
-  background-color: #ffffff;
-  border-radius: 4px;
-  padding: 32px 24px;
-  margin: 12px;
-  text-decoration: none;
-  z-index: 0;
-  overflow: hidden;
-  border: 1px solid #ffffff;
-  box-shadow: 1px 1px 10px gainsboro;
+.card2:hover .inner {
+  transform: rotateY(180deg);
 }
 
-.card3:hover {
-  transition: all 0.2s ease-out;
-  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-  top: -10px;
-  background-color: white;
-}
-
-.card3:hover::before {
-  transform: scale(2.15);
-}
-a {
-  text-decoration: none;
+.card3:hover .inner {
+  transform: rotateY(180deg);
 }
 
 /*
@@ -388,44 +311,4 @@ Test
 */
 #test {
   height: 100vh;
-}
-.kulturbanause-logo {
-  height: 500px;
-  width: 500px;
-  perspective: 1500;
-  float: left;
-  margin: 0 1em;
-  border: 1px solid saddlebrown;
-}
-.kulturbanause-logo:hover .turnaround {
-  transform: rotateY(180deg);
-}
-.kulturbanause-logo .front {
-  background: url(../images/flip-front.jpg) 0 0 no-repeat;
-}
-.kulturbanause-logo .back {
-  background: url(../images/flip-back.jpg) 0 0 no-repeat;
-}
-.turnaround {
-  transition: 2s;
-  transform-style: preserve-3d;
-  position: relative;
-  height: 100%;
-}
-.front,
-.back {
-  backface-visibility: hidden;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.front {
-  z-index: 2;
-}
-.back {
-  transform: rotateY(180deg);
-  z-index: 1;
-}
-#testen {
-  margin-top: 10%;
 }
