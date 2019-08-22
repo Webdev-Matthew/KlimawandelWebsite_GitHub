@@ -45,25 +45,12 @@ General Settings
   header nav ul li {
     list-style: none;
     width: 30%;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    padding-left: 8%;
-    padding-right: 8%;
-
   }
-  header nav ul li:last-child {
-      border-right: none;
-  }
-
-  header nav ul li:first-child {
-    border-left: none;
-  }
-
   header nav ul li a {
     text-decoration: none;
     color: #fff;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     -webkit-transition: all 0.45s ease;
@@ -80,9 +67,9 @@ General Settings
 .slide-content {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "lato", Helvetica, sans-serif;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   overflow-x: hidden;
 }
 
@@ -115,8 +102,10 @@ General Settings
 }
 
 .slide-content span {
-  font-size: 5rem;
-  color: blue;
+  font-size: 4rem;
+  color: black;
+  background-color: white;
+  text-align: left;
 }
 
 .arrow {
@@ -131,14 +120,14 @@ General Settings
 
 #arrow-left {
   border-width: 30px 40px 30px 0;
-  border-color: transparent #fff transparent transparent;
+  border-color: transparent #000000 transparent transparent;
   left: 0;
   margin-left: 30px;
 }
 
 #arrow-right {
   border-width: 30px 0 30px 40px;
-  border-color: transparent transparent transparent #fff;
+  border-color: transparent transparent transparent #000000;
   right: 0;
   margin-right: 30px;
 }
@@ -149,7 +138,7 @@ General Settings
   */
   
   #landing {
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     background-color: #fff;
   }
