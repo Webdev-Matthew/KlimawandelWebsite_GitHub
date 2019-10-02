@@ -65,7 +65,7 @@ Landing Page
 */
 
 #landing {
-  background-image: url(/Website/root/images/stamm_bearbeitet.jpeg);
+  background-image: url(../images/stamm_bearbeitet.jpeg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
